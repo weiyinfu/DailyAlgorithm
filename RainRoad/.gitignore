@@ -1,0 +1,5 @@
+.DS_Store
+a.out
+.idea/
+__pycache__/
+*.iml
