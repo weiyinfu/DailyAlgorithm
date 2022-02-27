@@ -1,7 +1,7 @@
 """
 https://leetcode-cn.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/submissions/
 
-给这个问题增加一点难度：输出乘机最小的那一对数字
+给这个问题增加一点难度：输出乘积最小的那一对数字
 """
 
 
