@@ -42,6 +42,18 @@ https://blog.nanpuyue.com/2019/053.html
 https://blog.nanpuyue.com/2019/054.html
 
 ![数据结构大全](./数据结构大全.png)
+
+
+# TODO
+kv库：使用Java实现红黑树、跳表、平衡树、B树
+https://www.cnblogs.com/skywang12345/p/3604286.html
+https://www.cnblogs.com/skywang12345/p/3644742.html
+https://www.cnblogs.com/skywang12345/p/3610390.html
+https://www.cnblogs.com/skywang12345/p/3638384.html
+https://www.cnblogs.com/skywang12345/p/3638552.html
+https://www.cnblogs.com/skywang12345/p/3659122.html
+https://www.cnblogs.com/skywang12345/p/3656098.html
+
 # 参考资料
 B树：https://zh.wikipedia.org/wiki/B%E6%A0%91
 AA树：https://zh.wikipedia.org/wiki/AA%E6%A0%91  Arne Andersson教授在1993年
