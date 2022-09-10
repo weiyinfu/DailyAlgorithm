@@ -1,4 +1,4 @@
-package details;
+package indexheap.details;
 
 class AutoBytePool {
 byte[] getBuffer() {

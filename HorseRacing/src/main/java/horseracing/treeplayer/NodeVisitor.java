@@ -5,10 +5,11 @@ import org.dom4j.Element;
 import java.util.List;
 
 public interface NodeVisitor<T> {
-List<T> getSons(T t);
+    List<T> getSons(T t);
 
-String tos(T t);
+    String tos(T t);
 
-Element toElement(T t);
-T root();
+    Element toElement(T t);
+
+    T root();
 }

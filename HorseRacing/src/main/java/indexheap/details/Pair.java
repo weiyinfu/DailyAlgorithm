@@ -1,8 +1,8 @@
-package details;
+package indexheap.details;
 
 public class Pair<T, U> {
-    public final T first;
-    public final U second;
+    public T first;
+    public U second;
 
     public Pair(T first, U second) {
         this.first = first;

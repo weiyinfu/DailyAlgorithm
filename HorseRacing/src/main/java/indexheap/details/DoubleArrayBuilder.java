@@ -1,4 +1,4 @@
-package details;
+package indexheap.details;
 
 public class DoubleArrayBuilder {
 public void build(Keyset keyset) {

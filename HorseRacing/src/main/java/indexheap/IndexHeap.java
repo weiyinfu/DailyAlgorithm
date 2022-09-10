@@ -1,3 +1,5 @@
+package indexheap;
+
 public interface IndexHeap<T> {
 T peek();
 

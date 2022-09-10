@@ -1,5 +1,4 @@
-package details;
-
+package indexheap.details;
 class BitVector {
 boolean get(int id) {
     return (_units.get(id / UNIT_SIZE) >>> (id % UNIT_SIZE) & 1) == 1;

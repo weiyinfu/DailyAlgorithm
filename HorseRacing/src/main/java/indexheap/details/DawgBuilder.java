@@ -1,5 +1,4 @@
-package details;
-
+package indexheap.details;
 import java.util.ArrayList;
 
 class DawgBuilder {

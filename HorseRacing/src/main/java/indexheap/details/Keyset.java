@@ -1,4 +1,4 @@
-package details;
+package indexheap.details;
 
 public class Keyset {
 public Keyset(byte[][] keys, int[] values) {

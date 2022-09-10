@@ -1,4 +1,4 @@
-package trie;
+package indexheap.trie;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

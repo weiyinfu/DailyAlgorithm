@@ -1,5 +1,5 @@
 package horseracing.balance;
 
 interface StrategyVisitor {
-void handle(Strategy s);
+    void handle(Strategy s);
 }
