@@ -60,3 +60,15 @@ AA树：https://zh.wikipedia.org/wiki/AA%E6%A0%91  Arne Andersson教授在1993�
 2-3树：https://zh.wikipedia.org/wiki/2-3%E6%A0%91 2–3树由约翰·霍普克洛夫特于1970年发明 
 平衡树：https://zh.wikipedia.org/wiki/%E6%9B%BF%E7%BD%AA%E7%BE%8A%E6%A0%91  
 替罪羊树：https://zh.wikipedia.org/wiki/%E6%9B%BF%E7%BD%AA%E7%BE%8A%E6%A0%91
+
+
+# lsm树
+https://skyzh.github.io/mini-lsm/ 【迟先生出品】
+关于LSM树的教程，在7节课之内构建一个LSM树存储引擎。目前处于WIP，已经完成第四节课，课程安排如下：
+Day 1: Block encoding. SSTs are composed of multiple data blocks. We will implement the block encoding.
+Day 2: SST encoding.
+Day 3: MemTable and Merge Iterators.
+Day 4: Block cache and Engine. To reduce disk I/O and maximize performance, we will use moka-rs to build a block cache for the LSM tree. In this day we will get a functional (but not persistent) key-value engine with get, put, scan, delete API.
+Day 5: Compaction. Now it's time to maintain a leveled structure for SSTs.
+Day 6: Recovery. We will implement WAL and manifest so that the engine can recover after restart.
+Day 7: Bloom filter and key compression. They are widely-used optimizations in LSM tree structures.
