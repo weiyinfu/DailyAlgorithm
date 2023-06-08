@@ -5,7 +5,12 @@
 上帝开始轮流问他们问题：你知道你自己身上的数字吗？
 三个人只能回答：知道或者不知道。
 问：三个人回答知道分别是在哪一次问询中？
+
+
+此程序尝试解决，但是没有写完，太难写了
 """
+
+max_value = 100  # 为了便于处理问题的上限，假设每个人的value都不超过100
 
 
 def can_dengbi(a):
@@ -15,21 +20,21 @@ def can_dengbi(a):
 
 def get_space(a):
     # 给定一个数组，求可行解。把a中为None的部分都填充好
-    unkown = []
-    known = []
-    for ind, i in a:
-        if i is None:
-            unkown.append(ind)
-        else:
-            known.append(i)
-    maybe = []
-    for i in known:
-        maybe.append(i * 2)
-        maybe.append(i // 2)
-    for i in unkown:
-        for j in known:
-            for maybe in 0:
-                pass
+    ans = []
+
+    def get(ind, now):
+        if ind == len(a):
+            if can_dengbi(now):
+                ans.append(now)
+            return
+        if a[ind] is not None:
+            get(ind + 1, now + [a[ind]])
+            return
+        for can in range(1, max_value):
+            get(ind + 1, now + [can])
+
+    get(0, [])
+    return ans
 
 
 class Person:
@@ -47,6 +52,7 @@ class Person:
             return
 
 
+
 def get_person(a, ind):
     return Person(ind, [(i, a[i] if i != ind else None) for i in range(len(a))])
 
@@ -54,6 +60,9 @@ def get_person(a, ind):
 def main():
     a = [2, 4, 8]
     persons = [get_person(a, i) for i in range(len(a))]
+    for i in persons:
+        print(i.space)
+    input()
     while True:
         all_know = False
         for i in persons:

@@ -9,3 +9,9 @@ node_modules/
 .pynb_checkpoints
 *.iml
 *.lock
+
+yarn-error.log
+target/
+cmake-build-debug
+.ipynb_checkpoints/
+web-ext-artifacts
